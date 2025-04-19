@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "docusaurus start --host 0.0.0.0 --port 9866",
+    "start": "docusaurus start --host 0.0.0.0 --port 9866 --no-open",
     "start:zh": "docusaurus start --locale zh-Hans",
     "start:pt": "docusaurus start --locale pt-BR",
     "build": "docusaurus build",

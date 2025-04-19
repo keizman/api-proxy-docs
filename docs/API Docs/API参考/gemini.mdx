@@ -4,39 +4,36 @@ description: "Converted MDX document"
 date: "2025-04-10"
 ---
 
-```mdx
-# Gemini兼容接口 ​
+# Gemini兼容接口
 
-## 协议选择 ​
+## 协议选择
 
 GPT API Proxy平台的Gemini模型支持原生的Gemini SDK协议，也支持OpenAI SDK的兼容协议，模型名相同，但是调用方式不一样，推荐无特殊需求优先使用原生协议，更加稳定，功能更加丰富，OpenAI兼容格式仅建议使用在比如Cursor等只支持自定义OpenAI接口时使用。
 
-<tip>
-OpenAI协议兼容Gemini官方提供，属于官方的Beta功能，不排除未来官方废弃这种用法的可能，GPT API Proxy不保证这种用法的稳定性，建议尽量使用原生Gemini协议，Dify、Chatbox等大部分开源软件均支持原生协议。
-</tip>
+> **⚠️ 注意**  
+> OpenAI协议兼容Gemini官方提供，属于官方的Beta功能，不排除未来官方废弃这种用法的可能，GPT API Proxy不保证这种用法的稳定性，建议尽量使用原生Gemini协议，Dify、Chatbox等大部分开源软件均支持原生协议。
 
-| 协议类型   | 域名                                     | 备注               |
-|------------|------------------------------------------|--------------------|
-| Gemini协议 | [https://api.openai-proxy.org/google](https://api.openai-proxy.org/google) | 添加/google后缀    |
-| OpenAI协议 | [https://api.openai-proxy.org/v1](https://api.openai-proxy.org/v1)         | 一般需要加/v1      |
+### 支持的协议域名
 
-## 聊天模型相关接口 ​
+| 协议类型 | 域名 | 备注 |
+|:--------:|:----:|:----:|
+| **Gemini协议** | [https://api.openai-proxy.org/google](https://api.openai-proxy.org/google) | 添加/google后缀 |
+| **OpenAI协议** | [https://api.openai-proxy.org/v1](https://api.openai-proxy.org/v1) | 一般需要加/v1 |
 
-<tip>
-仅支持Gemini 1.5系列聊天接口，不支持file上传、缓存等忌口，不支持其他非聊天模型。
-</tip>
+## 聊天模型相关接口
 
-### 请求样例 ​
+> **📝 提示**  
+> 仅支持Gemini 1.5系列聊天接口，不支持file上传、缓存等接口，不支持其他非聊天模型。
 
-<tip>
-必须明确指定rest协议调用，不支持默认的grpc调用。
-</tip>
+### 请求样例
+
+> **📝 提示**  
+> 必须明确指定rest协议调用，不支持默认的grpc调用。
 
 ```python
 import google.generativeai as genai
 
 if __name__ == '__main__':
-    # 注意gemini的sdk必须制定rest协议调用，否则会默认走grpc造成报错
     genai.configure(
         api_key='sk-xxxx',
         transport="rest",
@@ -47,7 +44,7 @@ if __name__ == '__main__':
     print(response.text)
 ```
 
-### 兼容协议调用 ​
+### 兼容协议调用
 
 OpenAI兼容协议（不推荐）
 
@@ -59,5 +56,4 @@ curl https://api.openai-proxy.org/v1/chat/completions \
     "model": "gemini-1.5-flash",
     "messages": [{"role": "user", "content": "Hello!"}]
 }'
-```
 ```

@@ -1,21 +1,22 @@
 ---
-title: "OpenAI兼容接口 ​"
+title: "OpenAI兼容接口"
 description: "Converted MDX document"
 date: "2025-04-10"
 ---
 
-```mdx
-# OpenAI兼容接口 ​
+# OpenAI兼容接口
 
 OpenAI大部分模型调用接口都支持，参数与使用方式全部同OpenAI，文档见[《OpenAI官方API文档》](https://platform.openai.com/docs/api-reference/introduction)，可以直接使用，无需任何修改。
 
-## TIP
+> **注意：** 平台转发基于负载均衡技术，会在多个账号间随机负载，不支持file、fine-tune、assistants等有状态接口，response api理论上不支持传递上一轮回复的id这种有状态用法。
 
-注意：平台转发基于负载均衡技术，会在多个账号间随机负载，不支持file、fine-tune、assistants等有状态接口，response api理论上不支持传递上一轮回复的id这种有状态用法。
+---
 
-## curl请求 ​
+## 调用示例
 
-> 注意一定要替换为我们的api base和api key，差一个都是不对的。
+### curl请求
+
+⚠️ **注意一定要替换为我们的api base和api key，差一个都是不对的。**
 
 ```shell
 curl https://api.openai-proxy.org/v1/chat/completions \
@@ -27,9 +28,9 @@ curl https://api.openai-proxy.org/v1/chat/completions \
   }'
 ```
 
-## Openai 官方Python库 ​
+### OpenAI官方Python库
 
-> 注意一定要替换为我们的api base和api key，差一个都是不对的。另外openai新版库和旧版本库也是不一样的
+⚠️ **注意一定要替换为我们的api base和api key，差一个都是不对的。另外openai新版库和旧版本库也是不一样的**
 
 ```python
 from openai import OpenAI
@@ -50,15 +51,7 @@ chat_completion = client.chat.completions.create(
 )
 ```
 
-## WARNING
-
-注意配置api_base时，应该加上一个/v1的后缀，而不是只有域名，要不然会报404错误。
-
-## WARNING
-
-部分过时的文档会给出带engine字段的示例，这个字段已经被废弃了，直接调openai可以调通，因为openai做了历史包袱兼容，平台是不支持这类被废弃的接口格式的。
-
-## LangChain ​
+### LangChain
 
 在环境变量中配置好本站提供的接口API地址与token即可正常使用包括`gpt-3.5-turbo`、`text-davinci-003`、`text-embedding-ada-002`等多个模型。
 
@@ -67,63 +60,12 @@ os.environ["OPENAI_API_BASE"] = "https://api.openai-proxy.org/v1"
 os.environ["OPENAI_API_KEY"] = "sk-xxxxxxxx"
 ```
 
-## WARNING
+---
 
-注意配置环境变量时，langchain的`OPENAI_API_BASE`应该加上一个`/v1`的后缀，而不是只有域名，要不然会报404错误。
+## ⚠️ 重要提示
 
-## 资金相关接口 ​
+- **API Base URL**: 配置`api_base`或`OPENAI_API_BASE`时，应该加上一个`/v1`的后缀，而不是只有域名，要不然会报404错误。
 
-## TIP
+- **废弃字段**: 部分过时的文档会给出带engine字段的示例，这个字段已经被废弃了，直接调openai可以调通，因为openai做了历史包袱兼容，平台是不支持这类被废弃的接口格式的。
 
-接口有限流，请不要高频调用。
-
-为了兼容某些前端项目的余额查询需求，也为了部分用户可以通过接口查询余额，平台按照OpenAI的接口格式返回了余额等信息。
-
-| 接口 | 作用 |
-| --- | --- |
-| /dashboard/billing/usage | 查询指定时间段的消费金额 |
-| /dashboard/billing/credit_grants | 查询当前余额 |
-
-### 请求样例 ​
-
-查询指定时间段的消费金额：/dashboard/billing/usage
-
-```shell
-curl --location --request GET 'https://api.openai-proxy.org/dashboard/billing/usage?start_date=2023-04-01&end_date=2023-06-01' \
---header 'Content-Type: application/json' \
---header 'Authorization: Bearer sk-xxxx'
-```
-
-```json
-{
-    "object": "list",
-    "daily_costs": null,
-    "total_usage": 88.96
-}
-```
-
-查询当前余额：/dashboard/billing/credit_grants
-
-```shell
-curl --location --request GET 'https://api.openai-proxy.org/dashboard/billing/credit_grants' \
---header 'Content-Type: application/json' \
---header 'Authorization: Bearer sk-xxxx'
-```
-
-```json
-{
-  "object": "credit_summary",
-  "total_granted": 194.98,  //无实际意义，可能某些前端会用到，不要依赖这个字段
-  "total_used": 80,  //本月消费
-  "total_available": 194.98  //剩余余额
-}
-```
-
-Last updated: 2025/3/21 22:04
-
-[上一页ChatGPT客户端推荐](/tutorial/integrations/chatgpt-client.html)
-
-[下一页Anthropic](/tutorial/api/anthropic.html)
-
-Copyright © 2024 GPT API Proxy
-```
+---

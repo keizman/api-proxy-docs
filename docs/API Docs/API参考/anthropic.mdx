@@ -5,23 +5,27 @@
 GPT API Proxy平台的Claude模型支持原生的Anthropic协议，也支持OpenAI的兼容协议，模型名相同，但是调用方式不一样，推荐无特殊需求优先使用原生协议，更加稳定，功能更加丰富，支持思维链、原生插件等高级功能，OpenAI兼容格式兼容有限，仅建议使用在比如Cursor等只支持自定义OpenAI接口时使用。
 
 <div className="tip">
-  <p>OpenAI协议兼容Claude官方提供，属于官方的Beta功能，不排除未来官方废弃这种用法的可能，GPT API Proxy不保证这种用法的稳定性，建议尽量使用原生Anthropic SDK协议，Dify、Chatbox等大部分开源软件均支持原生协议。</p>
+  <p>⚠️ OpenAI协议兼容Claude官方提供，属于官方的Beta功能，不排除未来官方废弃这种用法的可能，GPT API Proxy不保证这种用法的稳定性，建议尽量使用原生Anthropic SDK协议，Dify、Chatbox等大部分开源软件均支持原生协议。</p>
 </div>
+
+### 协议对比
 
 | 协议类型 | 域名 | 备注 |
-| --- | --- | --- |
-| Anthropic协议 | https://api.openai-proxy.org/anthropic | 添加/anthropic后缀 |
-| OpenAI协议 | https://api.openai-proxy.org/v1 | 一般需要加/v1 |
+|:--------:|:----:|:----:|
+| **Anthropic协议** | `https://api.openai-proxy.org/anthropic` | 添加/anthropic后缀 |
+| **OpenAI协议** | `https://api.openai-proxy.org/v1` | 一般需要加/v1 |
 
 <div className="warning">
-  <p>很多用户不懂如何区分协议，前面选择了OpenAI格式，然后后面域名处又写了/anthropic这种anthropic专用地址，造成请求404，这种纯属配置问题。使用claude模型一般软件比如ChatBox，都有专门的claude一项，不要在OpenAI的位置填claude模型的配置。</p>
+  <p>⚠️ 很多用户不懂如何区分协议，前面选择了OpenAI格式，然后后面域名处又写了/anthropic这种anthropic专用地址，造成请求404，这种纯属配置问题。使用claude模型一般软件比如ChatBox，都有专门的claude一项，不要在OpenAI的位置填claude模型的配置。</p>
 </div>
+
+---
 
 ## 接口示例
 
 所有请求主需要替换域名，然后增加一个额外的/anthropic前缀即可，以下为示例
 
-**Claude原生协议**
+### Claude原生协议
 
 ```shell
 curl --location 'https://api.openai-proxy.org/anthropic/v1/messages' \
@@ -31,25 +35,31 @@ curl --location 'https://api.openai-proxy.org/anthropic/v1/messages' \
 --data '{
     "model": "claude-3-opus-20240229",
     "max_tokens": 1024,
-    "stream":false,
+    "stream": false,
     "messages": [
         {"role": "user", "content": "hi"}
     ]
 }'
 ```
 
+---
+
 ## OpenAI兼容协议（不推荐）
-```
+
+```shell
 curl https://api.openai-proxy.org/v1/chat/completions \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer sk-xxxxx" \
 -d '{
-"model": "claude-3-opus-20240229",
-"messages": [{"role": "user", "content": "Hello!"}]
+  "model": "claude-3-opus-20240229",
+  "messages": [{"role": "user", "content": "Hello!"}]
 }'
 ```
 
+---
+
 ## Python使用
+
 ```python
 from anthropic import Anthropic
 
@@ -72,5 +82,8 @@ if __name__ == '__main__':
     print(message.content)
 ```
 
+---
+
 ## 客户端使用
+
 支持Anthropic的客户端都可以直接使用我们的兼容接口
