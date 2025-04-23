@@ -1,9 +1,3 @@
-<<<<<<< HEAD
----
-sidebar_position: 3
----
-=======
->>>>>>> faa835d (update)
 
 # Create a Blog Post
 
@@ -28,24 +22,8 @@ authors:
     image_url: https://github.com/slorber.png
 tags: [greetings]
 ---
-<<<<<<< HEAD
-
-Congratulations, you have made your first post!
-
-Feel free to play around and edit this post as much as you like.
 ```
 
-A new blog post is now available at [http://localhost:3000/blog/greetings](http://localhost:3000/blog/greetings).
-
-
----
-sidebar_position: 2
----
-
-=======
-```
-
->>>>>>> faa835d (update)
 # Create a Document
 
 Documents are **groups of pages** connected through:
@@ -58,17 +36,6 @@ Documents are **groups of pages** connected through:
 
 Create a Markdown file at `docs/hello.md`:
 
-<<<<<<< HEAD
-```md title="docs/hello.md"
-# Hello
-
-This is my **first Docusaurus document**!
-```
-
-A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).
-
-=======
->>>>>>> faa835d (update)
 ## Configure the Sidebar
 
 Docusaurus automatically **creates a sidebar** from the `docs` folder.
@@ -135,26 +102,6 @@ export default function MyReactPage() {
 
 A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
 
-<<<<<<< HEAD
-## Create your first Markdown Page
-
-Create a file at `src/pages/my-markdown-page.md`:
-
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
-
-This is a Markdown page
-```
-
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
-
-
----
-sidebar_position: 1
----
-
-=======
->>>>>>> faa835d (update)
 # Manage Docs Versions
 
 Docusaurus can manage multiple versions of your docs.
@@ -209,12 +156,6 @@ It is possible to edit versioned docs in their respective folder:
 
 
 
-<<<<<<< HEAD
----
-sidebar_position: 2
----
-=======
->>>>>>> faa835d (update)
 
 # Translate your site
 
@@ -245,24 +186,6 @@ cp docs/intro.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md
 
 Translate `i18n/fr/docusaurus-plugin-content-docs/current/intro.md` in French.
 
-<<<<<<< HEAD
-## Start your localized site
-
-Start your site on the French locale:
-
-```bash
-npm run start -- --locale fr
-```
-
-Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.
-
-:::caution
-
-In development, you can only use one locale at a time.
-
-:::
-=======
->>>>>>> faa835d (update)
 
 ## Add a Locale Dropdown
 
@@ -286,91 +209,6 @@ export default {
 };
 ```
 
-<<<<<<< HEAD
-The locale dropdown now appears in your navbar:
-
-![Locale Dropdown](./img/localeDropdown.png)
-
-## Build your localized site
-
-Build your site for a specific locale:
-
-```bash
-npm run build -- --locale fr
-```
-
-Or build your site to include all the locales at once:
-
-```bash
-npm run build
-```
-
-
-
-
-
-
-
-
-
----
-sidebar_position: 4
----
-
-# Markdown Features
-
-Docusaurus supports **[Markdown](https://daringfireball.net/projects/markdown/syntax)** and a few **additional features**.
-
-## Front Matter
-
-Markdown documents have metadata at the top called [Front Matter](https://jekyllrb.com/docs/front-matter/):
-
-```text title="my-doc.md"
-// highlight-start
----
-id: my-doc-id
-title: My document title
-description: My document description
-slug: /my-custom-url
----
-// highlight-end
-
-## Markdown heading
-
-Markdown text with [links](./hello.md)
-```
-
-## Links
-
-Regular Markdown links are supported, using url paths or relative file paths.
-
-```md
-Let's see how to [Create a page](/create-a-page).
-```
-
-```md
-Let's see how to [Create a page](./create-a-page.md).
-```
-
-**Result:** Let's see how to [Create a page](./create-a-page.md).
-
-## Images
-
-Regular Markdown images are supported.
-
-You can use absolute paths to reference images in the static directory (`static/img/docusaurus.png`):
-
-```md
-![Docusaurus logo](/img/docusaurus.png)
-```
-
-![Docusaurus logo](/img/docusaurus.png)
-
-You can reference images relative to the current file as well. This is particularly useful to colocate images close to the Markdown files using them:
-
-```md
-![Docusaurus logo](./img/docusaurus.png)
-=======
 
 ## Front Matter
 
@@ -441,7 +279,6 @@ hide_table_of_contents: false
 
 A Markdown blog post
 
->>>>>>> faa835d (update)
 ```
 
 ## Code Blocks
@@ -462,38 +299,6 @@ function HelloDocusaurus() {
 }
 ```
 
-<<<<<<< HEAD
-## Admonitions
-
-Docusaurus has a special syntax to create admonitions and callouts:
-
-```md
-:::tip My tip
-
-Use this awesome feature option
-
-:::
-
-:::danger Take care
-
-This action is dangerous
-
-:::
-```
-
-:::tip My tip
-
-Use this awesome feature option
-
-:::
-
-:::danger Take care
-
-This action is dangerous
-
-:::
-=======
->>>>>>> faa835d (update)
 
 ## MDX and React Components
 
@@ -517,15 +322,8 @@ export const Highlight = ({children, color}) => (
 );
 
 This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
-<<<<<<< HEAD
-
 This is <Highlight color="#1877F2">Facebook blue</Highlight> !
 ```
-
-=======
-This is <Highlight color="#1877F2">Facebook blue</Highlight> !
-```
->>>>>>> faa835d (update)
 export const Highlight = ({children, color}) => (
   <span
     style={{
@@ -541,12 +339,6 @@ export const Highlight = ({children, color}) => (
     {children}
   </span>
 );
-<<<<<<< HEAD
-
-This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
-
-This is <Highlight color="#1877F2">Facebook blue</Highlight> !
-=======
 This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
 This is <Highlight color="#1877F2">Facebook blue</Highlight> !
 
@@ -673,4 +465,3 @@ The documentation is in active development with several example pages and transl
 - 添加与项目无关的内容
 - 生成与文档主题无关的营销内容
 - 更改已建立的术语一致性
->>>>>>> faa835d (update)

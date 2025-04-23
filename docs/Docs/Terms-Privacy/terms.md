@@ -32,19 +32,6 @@ To access most features of the Service, you must register for an account. When y
 
 ### 4.1 Pre-Paid Credits; Refunds
 
-<<<<<<< HEAD
-Access to the Service, or to certain features of the Service, may require you to pay fees for pre-paid credits that are linked to your account (“Credits”), along with payment processing fees and transaction fees. Before you pay any fees, you will have an opportunity to review and accept the fees that you will be charged. Currently, GPT API Proxy requires users to purchase Credits to make API calls and access the Service, with a minimum and maximum purchase amount of $5 and $25,000 per transaction, respectively. Once purchased, refunds for unused Credits may be requested within twenty-four (24) hours from the time the transaction was processed. If no refund request is received within twenty-four (24) hours following the purchase, any unused Credits become non-refundable. To request a refund within the eligible period, you must email GPT API Proxy. The unused credit amount will be refunded to your payment method; the platform fees are non-refundable. Cryptocurrency payments are never refundable.
-
-### 4.2 Credit Expiration; Auto Recharge
-
-GPT API Proxy reserves the right to expire unused credits three hundred sixty-five (365) days after purchase. When purchasing Credits, you will have the option to automatically add Credits to your account by charging the payment method of your choosing when your available Credits are below a threshold amount you have set on your account (“**Auto Recharge**”). If you elect the Auto Recharge option, you authorize GPT API Proxy to automatically charge payments to your account. You may update or cancel Auto Recharge at any time through your account page.
-
-### 4.3 Currency; Payment Processing
-
-GPT API Proxy will charge the payment method you specify at the time of purchase. You authorize GPT API Proxy to charge all sums as described in these Terms, for the Service you select, to that payment method. GPT API Proxy accepts payment through our third-party payment processors. All payments made through Stripe are in U.S. dollars, and payments made through Coinbase are through your crypto wallet. If you choose to pay using Coinbase, you represent and warrant that the cryptocurrency and source of funds for the cryptocurrency you use do not constitute the proceeds of a financial crime or any other crime under applicable law.
-
-### 4.4 Changes to Fees
-=======
 Currently, users are required to purchase Credits (minimum $5, maximum $25,000 per transaction) to make API calls and access the Service, with associated payment processing and transaction fees disclosed before purchase. Refunds are conditional: a request must be submitted within twenty-four (24) hours of the transaction, AND the purchased Credits must be entirely unused. If either condition is not met (request outside the 24-hour window or any Credit usage), we cannot provide a refund. To request an eligible refund, please email refundg@planktonfly.com including the email address linked to your account. If approved, the Credit purchase amount will be refunded to your original payment method, excluding any non-refundable platform, processing, or transaction fees. Please note that payments made using cryptocurrency are non-refundable under any circumstances.
 
 <!-- 
@@ -57,7 +44,6 @@ GPT API Proxy reserves the right to expire unused credits three hundred sixty-fi
 GPT API Proxy will charge the payment method you specify at the time of purchase. You authorize GPT API Proxy to charge all sums as described in these Terms, for the Service you select, to that payment method. GPT API Proxy accepts payment through our third-party payment processors. All payments made through **Paddle** are in U.S. dollars, and payments made through Crypto are through your crypto wallet. If you choose to pay using Crypto, you represent and warrant that the cryptocurrency and source of funds for the cryptocurrency you use do not constitute the proceeds of a financial crime or any other crime under applicable law.
 
 ### 4.3 Changes to Fees
->>>>>>> faa835d (update)
 
 If GPT API Proxy changes the fees for the Service, including by adding additional fees or charges, GPT API Proxy will provide you advance notice of those changes. If you do not accept the changes, GPT API Proxy may discontinue providing the Service to you.
 
@@ -118,12 +104,7 @@ BY USING THE SERVICE YOU AGREE NOT TO:
 9. attempt to do any of the acts described in this Section 6, or assist or permit any person in engaging in any of the acts described in this Section 6.
 
 ## 7. **Termination of Use; Discontinuation and Modification of the Service**
-<<<<<<< HEAD
-
-You may terminate your account at any time by contacting customer service. If you terminate your account, you remain obligated to pay all outstanding fees, if any, incurred prior to termination relating to your use of the Service. If you violate any provision of these Terms, your permission from us to use the Service will terminate automatically, and any unused Credits will not be refunded. In addition, GPT API Proxy may in its sole discretion terminate your user account on the Service or suspend or terminate your access to the Service at any time for any reason or no reason, with or without notice. We also reserve the right to modify or discontinue the Service at any time (including by limiting or discontinuing certain features of the Service), temporarily or permanently, without notice to you. We will have no liability whatsoever on account of any change to the Service or any suspension or termination of your access to or use of the Service. Except for GPT API Proxy’s termination of your account for violation of these Terms, any Credits remaining in your account upon termination will be refunded to you through your original payment method within thirty (30) days of termination.
-=======
 You may terminate your account at any time by contacting customer service. Before proceeding with account termination, please ensure that you have utilized all purchased Credits associated with your account. If you terminate your account, you remain obligated to pay all outstanding fees, if any, incurred prior to termination relating to your use of the Service. Upon termination of your account, whether initiated by you or for any other reason (including violation of these Terms), any remaining or unused Credits will be forfeited and are non-refundable. In addition, GPT API Proxy may in its sole discretion terminate your user account on the Service or suspend or terminate your access to the Service at any time for any reason or no reason, with or without notice, which will also result in the forfeiture of any unused Credits without refund. We also reserve the right to modify or discontinue the Service at any time (including by limiting or discontinuing certain features of the Service), temporarily or permanently, without notice to you. We will have no liability whatsoever on account of any change to the Service or any suspension or termination of your access to or use of the Service.
->>>>>>> faa835d (update)
 
 ## 8. **Privacy Policy; Additional Terms**
 
@@ -217,10 +198,6 @@ By using the Service, you consent to receiving certain electronic communications
 
 ## 19. **Contact Information**
 
-<<<<<<< HEAD
-The Service is offered by GPT API Proxy, Inc., located at 169 Madison Avenue, New York, NY 10016, United States. You may contact us by sending correspondence to that address or by emailing us.
-=======
 The Service is offered by Planktonfly, Inc., You may contact us by sending correspondence to that address or by emailing us.
->>>>>>> faa835d (update)
 
 

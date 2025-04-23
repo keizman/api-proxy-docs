@@ -35,8 +35,6 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-<<<<<<< HEAD
-=======
   // i18n: {
   //   defaultLocale: 'en',
   //   locales: ['en', 'zh', 'ja', 'pt-BR', 'hi'],
@@ -58,7 +56,6 @@ const config = {
   //     },
   //   },
   // },
->>>>>>> faa835d (update)
   plugins: [
     // [
     //   '@easyops-cn/docusaurus-search-local',
@@ -183,20 +180,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-<<<<<<< HEAD
-      image: 'img/GPT_API_64_64.png',
-=======
       image: 'img/resize_png.png',
->>>>>>> faa835d (update)
       navbar: {
         title: 'My Site',
         logo: {
           alt: 'My Site Logo',
-<<<<<<< HEAD
-          src: 'img/GPT_API_64_64.png',
-=======
           src: 'img/resize_png.png',
->>>>>>> faa835d (update)
         },
         items: [
           {
@@ -228,11 +217,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-<<<<<<< HEAD
-                to: '/docs/intro',
-=======
                 to: '/docs/API Docs',
->>>>>>> faa835d (update)
               },
             ],
           },
@@ -240,24 +225,10 @@ const config = {
             title: 'Community',
             items: [
               {
-<<<<<<< HEAD
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-=======
                 label: 'Discord',
                 href: 'https://discord.gg/Gd2Hy78HM3',
               },
 
->>>>>>> faa835d (update)
             ],
           },
           {

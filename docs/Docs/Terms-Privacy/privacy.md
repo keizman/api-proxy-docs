@@ -16,11 +16,7 @@ This Privacy Policy applies to all personal data collected through any written, 
 
 ## Before Using Our Services
 
-<<<<<<< HEAD
-Before using our Site and Service, please carefully read our Terms of Service, which you can view [here](#terms) and this Privacy Policy. 
-=======
 Before using our Site and Service, please carefully read our Terms of Service, which you can view [here](/docs/Docs/Terms-Privacy/terms) and this Privacy Policy. 
->>>>>>> faa835d (update)
 
 **By using this Site or Service**, you consent to the collection and use of your personal data in accordance with this Privacy Policy and our Terms of Service. If you do not feel comfortable with any part of this Privacy Policy or our Terms of Service, you should not use or access our Site or Service.
 
@@ -72,11 +68,7 @@ Your browser may provide you with the option to refuse some or all browser cooki
 
 ## Analytics and Other Tracking Technologies
 
-<<<<<<< HEAD
-We may use third-party Service Providers (defined below) to monitor and analyze the use of our Site. Presently, we use Google Analytics. Google Analytics is a web analytics service offered by Google LLC (“**Google**”) that tracks and reports Site traffic. For more information on the privacy practices of Google, please visit the Google Privacy & Terms web page: [**https://policies.google.com/privacy?hl=en**](https://policies.google.com/privacy?hl=en). Google Analytics Opt-out Browser Add-on provides visitors with the ability to prevent their data from being collected and used by Google Analytics, available at: [**https://tools.google.com/dlpage/gaoptout**](https://tools.google.com/dlpage/gaoptout).
-=======
 We may use third-party Service Providers (defined below) to monitor and analyze the use of our Site. Presently, we use Google Analytics. Google Analytics is a web analytics service offered by Google LLC (“**Google**”) that tracks and reports Site traffic. For more information on the privacy practices of Google, please visit the Google Privacy & Terms web page: [**https://policies.google.com/privacy?hl=en**](https://policies.google.com/privacy?hl=en). Google Analytics Opt-out Browser Add-on provides visitors with the ability to prevent their data from being collected and used by Google Analytics, available at: [**https://tools.google.com/dlpage/gaoptout**](https://tools.google.com/dlpage/gaoptout), We may also use this third-party Service Providers https://clarity.microsoft.com .
->>>>>>> faa835d (update)
 
 We may also use Tracking Technologies to collect "clickstream" data, such as the domain name of the service providing you with Internet access, your device type, IP address used to connect your device to the Internet, your browser type and version, operating system and platform, the average time spent on our Site, webpages viewed, content searched for, access times and other relevant statistics, and assign unique identifiers to the device or other credentials you use to access the Site for the same purposes. In collecting clickstream data, we use PostHog, a web and products analytics platform that may also utilize session replay features. You may review PostHog’s terms and conditions here: https://posthog.com/terms.
 
@@ -131,15 +123,6 @@ We may share or disclose your personal data in the following circumstances:
 
 ## Marketing Communications
 
-<<<<<<< HEAD
-We strive to provide you with choices regarding the personal data you provide to us. If you do not wish to have your email address or other contact information used by us to promote our Service, you can opt-out by sending an email stating your request to support@gptapiproxy.com. You may also choose to stop receiving our promotional or marketing communications by following the “unsubscribe” instructions included in these messages. This opt out does not apply to information provided by us as a result of your participation in our product release, product service experience or other transactions. Please note that "opt-out" and "unsubscribe" requests may not take effect immediately and may take a reasonable amount of time to receive, process and apply, during which time your information shall remain subject to the prior privacy settings. Additionally, you should be aware that any information provided to third parties prior to your election to opt-out or unsubscribe will not be retrieved or rescinded, unless required by applicable law.
-
-## Keeping Your Personal Data Accurate and Deletion
-
-We are committed to ensuring that your personal data is kept accurate and up to date. However, it is up to you to update it with any changes. You can review and change your personal data by logging into the Site and visiting your account profile page. You may also send us an email at support@gptapiproxy.com to request access to, or to correct any personal data that you have provided to us. We may not accommodate a request to change information if we believe the change would violate any law or legal requirement or cause the information to be incorrect.
-
-If you no longer wish to use our Service, or no longer wish to have your personal data be processed, you may request to delete your account and the information in your account, subject to certain limitations, by emailing us at privacy@gptapiproxy.com. Once you submit your request, we will send an email to the email address linked to your account requesting that you confirm your deletion request. Once you confirm your request to delete your account and data, your account will no longer be accessible while we process your request. Once you confirm your request, this process cannot be canceled, undone, withdrawn, or reversed. When your account is deleted, all associated personal data is deleted, unless we are required to maintain it for regulatory and compliance purposes or for a legal or business necessity.
-=======
 We strive to provide you with choices regarding the personal data you provide to us. If you do not wish to have your email address or other contact information used by us to promote our Service, you can opt-out by sending an email stating your request to support@planktonfly.com. You may also choose to stop receiving our promotional or marketing communications by following the “unsubscribe” instructions included in these messages. This opt out does not apply to information provided by us as a result of your participation in our product release, product service experience or other transactions. Please note that "opt-out" and "unsubscribe" requests may not take effect immediately and may take a reasonable amount of time to receive, process and apply, during which time your information shall remain subject to the prior privacy settings. Additionally, you should be aware that any information provided to third parties prior to your election to opt-out or unsubscribe will not be retrieved or rescinded, unless required by applicable law.
 
 ## Keeping Your Personal Data Accurate and Deletion
@@ -147,17 +130,12 @@ We strive to provide you with choices regarding the personal data you provide to
 We are committed to ensuring that your personal data is kept accurate and up to date. However, it is up to you to update it with any changes. You can review and change your personal data by logging into the Site and visiting your account profile page. You may also send us an email at support@planktonfly.com to request access to, or to correct any personal data that you have provided to us. We may not accommodate a request to change information if we believe the change would violate any law or legal requirement or cause the information to be incorrect.
 
 If you no longer wish to use our Service, or no longer wish to have your personal data be processed, you may request to delete your account and the information in your account, subject to certain limitations, by emailing us at support@planktonfly.com. Once you submit your request, we will send an email to the email address linked to your account requesting that you confirm your deletion request. Once you confirm your request to delete your account and data, your account will no longer be accessible while we process your request. Once you confirm your request, this process cannot be canceled, undone, withdrawn, or reversed. When your account is deleted, all associated personal data is deleted, unless we are required to maintain it for regulatory and compliance purposes or for a legal or business necessity.
->>>>>>> faa835d (update)
 
 ## Rights Regarding Your Personal Data
 
 Depending on where you live and the laws that apply in your country of residence, you may have certain rights regarding your personal data, as described here. While we strive to prioritize the protection of personal data and comply with all applicable laws, we may decline a request from you if we have a lawful reason for doing so.
 
-<<<<<<< HEAD
-To exercise your rights, you or your authorized agent may submit a request by email at [privacy@gptapiproxy.com](mailto:privacy@gptapiproxy.com). We may first request additional information to verify your identity before processing your request.
-=======
 To exercise your rights, you or your authorized agent may submit a request by email at [support@planktonfly.com](mailto:support@planktonfly.com). We may first request additional information to verify your identity before processing your request.
->>>>>>> faa835d (update)
 
 * Right to know. You have the right to know what personal data GPT API Proxy processes about you, including categories of personal data, the categories of sources from which it is collected, the business or commercial purposes for collection, and categories of third parties to whom we disclose it.
 * Access and data portability. You have the right to request a copy of the personal data we process about you, subject to certain exceptions and conditions. You may also have the right to export your information in certain cases.
