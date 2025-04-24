@@ -11,14 +11,6 @@ GPT API Proxy provides a unified API that gives you access to hundreds of AI mod
 
 
 
-## Model Domain Replacement Rules
-
-| Model Provider | Original Domain | Replace with | Notes |
-|---|---|---|---|
-| OpenAI | [https://api.openai.com/v1](https://api.openai.com/v1) | `https://api.llmproai.xyz/v1/` | Generally need to add /v1 |
-| Anthropic | [https://api.anthropic.com](https://api.anthropic.com) |`https://api.llmproai.xyz/v1/`|  |
-| Gemini | [https://generativelanguage.googleapis.com](https://generativelanguage.googleapis.com) |`https://api.llmproai.xyz/v1/`|  |
-
 
 
 ## Use shell command
@@ -118,6 +110,16 @@ To use free models available on the platform:
 3. Click on any "Model name" to automatically copy it to your clipboard
 4. Use this model name in your API requests
 
+
+
+
+## Model Domain Replacement Rules
+
+| Model Provider | Original Domain | Replace with | Notes |
+|---|---|---|---|
+| OpenAI | [https://api.openai.com/v1](https://api.openai.com/v1) | `https://api.llmproai.xyz/v1/` | Generally need to add /v1 |
+| Anthropic | [https://api.anthropic.com](https://api.anthropic.com) |`https://api.llmproai.xyz/v1/`|  |
+| Gemini | [https://generativelanguage.googleapis.com](https://generativelanguage.googleapis.com) |`https://api.llmproai.xyz/v1/`|  |
 
 :::warning
 
