@@ -1,0 +1,291 @@
+---
+title: "ChatGPT客户端推荐 ​"
+date: "2025-04-10"
+---
+
+# ChatGPT客户端推荐 ​
+
+## 前言 ​
+
+本文收录了目前市场上最好用的几款ChatGPT同类产品或者替代产品，Windows/Mac/Linux/安卓/苹果等各平台的都有，如果你正在寻找一款好用的ChatGPT客户端，或者已经在使用其中某款，但是觉得不好用，在寻找更好的替代品，这篇文章将会帮助到你。
+
+## 各模型域名填写规则 ​
+
+> **注意**
+>
+> 以下为常见的域名填写方式，不同客户端可能有所不同，有些可能不需要`/v1`后缀，有些可能需要填写完整的`/v1/chat/completions`后缀，具体请查阅对应客户端的官方文档。
+
+| 模型供应商 | 域名                                    | 备注           |
+| :--------- | :-------------------------------------- | :------------- |
+| OpenAI     | `https://api.openai-proxy.org/v1`     | 一般需要加`/v1` |
+| Anthropic  | `https://api.openai-proxy.org/v1`   |                |
+| Gemini     | `https://api.openai-proxy.org/v1`   |                |
+
+## 注意事项 ​
+
+1.  **小白用户经常会问的一个问题：** 为什么通过提问的方式，问GPT自己是不是GPT4，他说自己是GPT3? 这个问题是刚接触API的小白最经常有的困惑，已经被写到文档里了[《常见问题》](https://123)
+2.  如果报错 `404 Not Found`，一定是域名配置的不对，请仔细阅读对应客户端的使用文档。
+3.  很多人会误把Claude等API域名配置到OpenAI的地方，导致配置错误无法使用，一定要注意。
+
+## Chatbox ​
+
+ChatBox是类似ChatGPT的一款本地桌面版客户端，支持Windows、Mac和Linux。下载安装即可使用。完全兼容GPT API Proxy的API，支持ChatGPT、Claude 3、Gemini等多种模型。缺点是不支持插件调用，PDF阅读等高级功能需要购买单独的月费会员，会员费价格和ChatGPT差不多，如果需要网络搜索、文件阅读之类的能力的话，需要考虑其他客户端，目前在这方面Chatbox还无法替代ChatGPT。
+
+| 功能                     | 是否支持 |
+|------------------------|----------|
+| 图片识别与理解           | 支持     |
+| Dalle图片生成            | 支持     |
+| SD图片生成               | 不支持   |
+| 插件支持                 | 不支持   |
+| 记忆能力                 | 不支持   |
+
+站长评价：🌟🌟🌟🌟
+
+![Chatbox](https://public-img-bucket.oss-cn-beijing.aliyuncs.com/openai-asia/202307182332830.png)
+
+### 下载地址 ​
+
+[ChatBox官网](https://chatboxai.app)
+
+### 使用方式 ​
+
+#### ChatGPT ​
+
+在设置页面选择OpenAI API，并输入平台提供的API Base和API Key即可。
+
+![ChatGPT设置](https://public-img-bucket.oss-cn-beijing.aliyuncs.com/openai-asia/202307182333045.png)
+
+#### Claude 3 ​
+
+目前Chatbox支持直接使用我们的兼容接口调用Claude 3，模型包括：
+
+- claude-3-haiku-20240307
+- claude-3-sonnet-20240229
+- claude-3-opus-20240229
+
+配置方式如下：
+
+> **WARNING**
+> 注意AI模型提供方必须改为Claude，如果选OpenAI会无法使用。
+
+![Claude 3设置](https://public-img-bucket.oss-cn-beijing.aliyuncs.com/openai-asia/202403150939452.png)
+
+## BotGem ​
+
+原名AMA，一款设计精美的桌面版客户端，同时支持Windows、Mac桌面和移动端下载，安装即可使用。不过目前升级迭代较慢，作者好像不怎么更新了。
+
+| 功能                     | 是否支持 |
+|------------------------|----------|
+| 图片识别与理解           | 支持     |
+| Dalle图片生成            | 支持     |
+| SD图片生成               | 不支持   |
+| 插件支持                 | 不支持   |
+| 记忆能力                 | 不支持   |
+
+站长评价：🌟🌟🌟
+
+![BotGem](https://public-img-bucket.oss-cn-beijing.aliyuncs.com/openai-asia/202307182334938.png)
+
+### 下载地址 ​
+
+[BotGem官网](https://botgem.com/)
+
+### 使用方式 ​
+
+下载后打开设置页面，选中OpenAI，并输入平台提供的API Base和API Key即可。
+
+![BotGem设置](https://public-img-bucket.oss-cn-beijing.aliyuncs.com/openai-asia/202307182335007.png)
+
+## ChatGPT-Next-Web(NextChat) ​
+
+ChatGPT刚推出时比较流行的Web端ChatGPT，后来被作者出售了，改名NextChat，现在开源版本好久没有新功能增加了，也一直没有更新插件等能力，不过日常使用也足够了，下载安装即可使用。网上有很多使用教程，也可以自己搭建网页版，用docker部署，然后安卓、IOS中使用。
+
+| 功能                     | 是否支持 |
+|------------------------|----------|
+| 图片识别与理解           | 支持     |
+| Dalle图片生成            | 不支持   |
+| SD图片生成               | 支持     |
+| 插件支持                 | 不支持   |
+| 记忆能力                 | 不支持   |
+
+站长评价：🌟🌟🌟
+
+![NextChat](https://public-img-bucket.oss-cn-beijing.aliyuncs.com/openai-asia/202305051102158.png)
+
+### 使用方式 ​
+
+#### 本地客户端 ​
+
+进入官方的发布页面，选择对应的版本进行下载：https://github.com/Yidadaa/ChatGPT-Next-Web/releases
+
+官方提供的下载方式不太适合小白，注意平台和参数一定不要选错，否则无法运行。
+
+- Windows用户选择：ChatGPT.Next.Web_2.9.0_x64-setup.exe 这种exe结尾的
+- Mac用户选择：ChatGPT.Next.Web_2.9.0_x64.dmg 这种dmg结尾的
+
+下载后打开设置页面，输入平台提供的API Base和API Key即可。
+
+![NextChat设置](https://public-img-bucket.oss-cn-beijing.aliyuncs.com/openai-asia/202307182325924.png)
+
+> 查询余额接口不准，请以本站为准
+
+## LobeChat ​
+
+一款开源的聊天工具，功能齐全，有丰富的插件市场，支持知识库，可以上传文件，不过需要自己使用服务器搭建，组件较多，自己docker本地部署的话比较复杂，需要一定的开发知识，目前只有网页版，没有客户端，非开源版本需要每月购买会员才能配置自定义API Key，部分网友反馈使用起来有些卡顿，可能是默认功能比较多导致的，不够轻量。
+
+| 功能                     | 是否支持 |
+|------------------------|----------|
+| 图片识别与理解           | 支持     |
+| Dalle图片生成            | 支持     |
+| SD图片生成               | 支持     |
+| 插件支持                 | 支持     |
+| 记忆能力                 | 不支持   |
+
+站长评价：🌟🌟🌟
+
+![LobeChat](https://public-img-bucket.oss-cn-beijing.aliyuncs.com/openai-asia/202411302130931.png)
+
+### 下载地址 ​
+
+[LobeChat官网](https://lobechat.com)
+
+### 使用方式 ​
+
+下载后打开设置页面，选中OpenAI，并输入平台提供的API Base和API Key即可。
+
+![LobeChat设置](https://public-img-bucket.oss-cn-beijing.aliyuncs.com/openai-asia/202411302125121.png)
+
+## Open Web UI ​
+
+一个开源的网页版聊天客户端，需要自己用服务器搭建安装，配置比较复杂，不太容易上手，不过界面比较干净。特点是支持本地开源模型接入，不推荐普通用户尝试。
+
+| 功能                   | 是否支持 |
+|----------------------|--------|
+| 图片识别与理解          | 支持     |
+| Dalle图片生成          | 不支持   |
+| SD图片生成            | 不支持   |
+| 插件支持              | 支持     |
+| 记忆能力              | 不支持   |
+
+站长评价：🌟
+
+### 地址
+
+[Open Web UI](https://github.com/open-webui/open-webui)
+
+## LibreChat
+
+一个github开源的网页版聊天客户端，支持上传文件，同样需要自己用服务器搭建，部署最为复杂，光组件就好几个，每个组件都需要docker启动起来。具体如何部署LibreChat网上有很多教程，这里不详细介绍了。Bug比较多，有时新版本部署后反而无法运行起来，胜在UI好看，不推荐普通用户尝试。
+
+| 功能                   | 是否支持 |
+|----------------------|--------|
+| 图片识别与理解          | 支持     |
+| Dalle图片生成          | 支持     |
+| SD图片生成            | 支持     |
+| 插件支持              | 支持     |
+| 记忆能力              | 不支持   |
+
+站长评价：🌟🌟
+
+### 地址
+
+[LibreChat官网](https://github.com/danny-avila/LibreChat)
+
+## TypingMind
+
+一个收费的ChatGPT聊天的客户端壳，只支持网页版，而且需要付费购买，价格还很贵，其他的客户端基本都是免费的，API的钱还要另外掏，优点是使用起来界面响应快？不是很推荐。
+
+| 功能                   | 是否支持 |
+|----------------------|--------|
+| 图片识别与理解          | 支持     |
+| Dalle图片生成          | 支持     |
+| SD图片生成            | 支持     |
+| 插件支持              | 支持     |
+| 记忆能力              | 不支持   |
+
+站长评价：🌟
+
+### 地址
+
+[TypingMind官网](https://www.typingmind.com/)
+
+## 效能类客户端推荐
+
+提示
+
+效能类虽然支持聊天，但是一般不作为主力聊天工具，而是通过聊天辅助来提高工作效率。
+
+## Cursor
+
+市面上最强的AI开发编辑器，目前效果最好，支持composer多文件同时编辑，暂时不支持中文。具体使用网上有很多Cursor使用教程和技巧，这里不再赘述。
+
+如何付费：
+
+1. 可以充值购买Cursor的会员订阅，付款需要境外卡，国内信用卡不行，网上也能找到一些会员合租的。
+2. Cursor订阅每月有使用额度限制，也可以配置GPT API Proxy的API Key使用，无额度限制。
+
+在设置页面配置好API Base和API Key即可，注意Cursor虽然支持自定义Custom Claude/Gemini的API Key，但是不支持自定义API Base，因此无法在Cursor内使用我们的Claude/Gemini。
+
+![](https://public-img-bucket.oss-cn-beijing.aliyuncs.com/openai-asia/202411302301884.png)
+
+### 地址
+
+[Cursor官网](https://www.cursor.com)
+
+## Zed
+
+Zed也是一款AI编辑器，由Atom编辑器原创团队新作，支持所有GPT API Proxy模型。
+
+在Zed的配置项里添加如下配置，即可接入所有GPT API Proxy的模型：
+
+```json
+{
+    "language_models": {
+        "openai": {
+            "version": "1",
+            "api_url": "https://api.openai-proxy.org/v1"
+        },
+        "anthropic": {
+            "version": "1",
+            "api_url": "https://api.openai-proxy.org/anthropic"
+        },
+        "google": {
+            "api_url": "https://api.openai-proxy.org/google"
+        }
+    }
+}
+```
+
+## Dify
+
+Dify是一款可以服务器本地部署的工作流工具，同样支持聊天功能和知识库，但不是主要用途，具体用途和安装教程参见官网。
+
+打开Dify的设置页面，配置我们的域名和Key，注意Dify不需要加/v1。
+
+![](https://public-img-bucket.oss-cn-beijing.aliyuncs.com/openai-asia/202411302305487.png)
+
+## FastGPT
+
+和Dify类似，是一款可以服务器本地部署的工作流工具，同样支持聊天功能和知识库，具体用途和安装教程参见官网。
+
+配置方法同Dify。
+
+## 沉浸式翻译
+
+沉浸式翻译是一款优秀的浏览器翻译插件，支持OpenAI作为翻译模型，可以购买会员，也可以搭配GPT API Proxy无限额度使用，由于翻译工具普遍对并发要求较高，因此搭配使用支持高并发的GPT API Proxy效果更好。
+
+注意沉浸式翻译必须使用完整的路径后缀：/v1/chat/completions。
+
+![](https://public-img-bucket.oss-cn-beijing.aliyuncs.com/openai-asia/202411302308060.png)
+
+## OpenAI Translator
+
+一款本地翻译软件，和沉浸式翻译有重叠的部分，但是这个支持桌面端翻译。
+
+在设置页面配置我们的域名，域名和路径是分开的。
+
+![](https://public-img-bucket.oss-cn-beijing.aliyuncs.com/openai-asia/202411302316218.png)
+
+## GPT Academic
+
+一个使用GPT进行学术优化的工具，一般用于科研用途的论文翻译等，针对论文翻译领域有一定的优势，支持GPT API Proxy的API Key，具体配置参考GPT Academic使用教程。

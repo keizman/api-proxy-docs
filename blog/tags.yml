@@ -17,3 +17,19 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+AI:
+  label: AI
+  permalink: /ai
+  description: AI tag description
+
+MCP:
+  label: MCP
+  permalink: /mcp
+  description: MCP tag description
+
+Technical:
+  label: Technical
+  permalink: /technical
+  description: Technical tag description
+
