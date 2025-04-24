@@ -4,27 +4,27 @@ slug: custome-channel
 ---
 
 
-## What is 用户自定义渠道设置
+## What is Custom Channel Settings
 
-市场上存在很多限免的 LLM 厂商，会开放其免费模型出来，但通常有一些使用限制。对于个人用于测试而言是一个不错的选择，但苦于厂商很多，如何将其串联起来是一个问题。
+There are many LLM providers in the market that offer free models, but usually with some usage limitations. This is a good choice for personal testing, but with so many providers, it becomes a challenge to connect them all together.
 
 ## How to use?
 
-我们的平台计划推出**用户自定义渠道设置**，通过简单配置即可实现多平台模型整合：
+Our platform plans to launch **Custom Channel Settings**, which enables multi-platform model integration through simple configuration:
 
-- 使用 **OpenAI-compatible** 方式填入配置参数：
+- Use **OpenAI-compatible** method to enter configuration parameters:
   - `base_url`
   - `api_key` 
   - `model_name`
 
-- 通过我们的平台进行**代理中转**
-- 您的客户端只需要配置我们的地址即可请求多个平台的免费模型
-- 支持在付费与免费模型之间灵活切换
+- **Proxy forwarding** through our platform
+- Your client only needs to configure our address to request free models from multiple platforms
+- Support flexible switching between paid and free models
 
 ## Announcement
 
-- 此功能**完全免费开放**
-- 个人用户只需简单配置即可使用
-- 前期阶段需通过**发送邮件申请**获取权限
+- This feature is **completely free**
+- Personal users only need simple configuration to use
+- During the early stages, permission must be obtained by **sending an email request**
 
-> **即将开放，敬请期待！**
+> **Coming soon, stay tuned!**

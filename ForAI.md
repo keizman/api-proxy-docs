@@ -444,6 +444,30 @@ The documentation is in active development with several example pages and transl
      <Highlight color="#1877F2">高亮文本</Highlight>
      ```
 
+#### Docusaurus' tabs syntax
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="python" label="Python">
+
+```python
+from openai import OpenAI
+
+
+```
+  </TabItem>
+  <TabItem value="typescript" label="TypeScript">
+
+```typescript
+import OpenAI from 'openai';
+
+```
+
+  </TabItem>
+</Tabs>
+
+
 ### 多语言支持指南 (Multilingual Guidelines), attention: 只有指定翻译任务时才参考此指南
 1. **创建翻译文件**:
    - 新文档应优先创建英文版本
@@ -453,6 +477,10 @@ The documentation is in active development with several example pages and transl
    - 确保专业术语在所有语言中保持一致
    - 保留原文中的代码示例，仅翻译注释
    - 可使用 `npm run write-translations` 生成待翻译文件
+
+3.翻译任务须知, 
+- 一些 翻译需求写在   <!--  --> 标识中, 如果遇到请根据需求进行翻译
+- 像 openai, gemini 这种名称应该 Keep in English , 在执行翻译任务时请勿翻译它们
 
 ### 图片和资源 (Images and Assets)
 1. **图片存放**:
@@ -484,3 +512,4 @@ The documentation is in active development with several example pages and transl
 - 添加与项目无关的内容
 - 生成与文档主题无关的营销内容
 - 更改已建立的术语一致性
+
