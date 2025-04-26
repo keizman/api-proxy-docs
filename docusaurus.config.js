@@ -22,8 +22,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  // organizationName: 'facebook', // Usually your GitHub org/user name.
+  // projectName: 'docusaurus', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -162,8 +162,8 @@ const config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -203,8 +203,8 @@ const config = {
 
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://api.llmproai.xyz',
+            label: 'Go back to our Site',
             position: 'right',
           },
         ],
@@ -222,13 +222,16 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Support',
             items: [
               {
                 label: 'Discord',
                 href: 'https://discord.gg/Gd2Hy78HM3',
               },
-
+              {
+                label: 'Email to us',
+                href: 'mailto:support@planktonfly.com',
+              },
             ],
           },
           {
@@ -238,17 +241,17 @@ const config = {
                 label: 'Blog',
                 to: '/blog',
               },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+              // {
+              //   label: 'GitHub',
+              //   href: 'https://github.com/facebook/docusaurus',
+              // },
             ],
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Planktonfly, Inc..`,
       },
       prism: {
-        theme: prismThemes.github,
+        // theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
     }),

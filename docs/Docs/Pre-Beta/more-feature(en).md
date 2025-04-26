@@ -13,7 +13,7 @@ We're always looking to improve and expand our features. If you have ideas or wa
 Join our community and share your ideas directly with the team and other users.
 
 ### 📧 Email
-Send your feature suggestions or contributions to our development team.
+Send your feature suggestions or contributions to our development team. 
 
 ---
 
