@@ -248,7 +248,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Planktonfly, Inc..`,
+        copyright: `Copyright © ${new Date().getFullYear()} Planktonfly, LLC — All Rights Reserved.`,
       },
       prism: {
         // theme: prismThemes.github,
